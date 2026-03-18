@@ -10,12 +10,9 @@ export const Layout: React.FC = () => {
 		<ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
 			<SidebarProvider>
 				<SideBar />
-				<main className="flex flex-col w-full">
-					<SearchBar />
-
-					<div className="p-2">
-						<Outlet />
-					</div>
+				<SearchBar />
+				<main className="p-2">
+					<Outlet />
 				</main>
 			</SidebarProvider>
 		</ThemeProvider>
