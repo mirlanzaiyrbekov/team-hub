@@ -8,6 +8,15 @@
 	/* custom */
 	--color-searchbar: var(--searchbar);
 	--color-textcolor: var(--textcolor);
+	/* Breakpoint */
+	--breakpoint-xs: 279.99px;
+	--breakpoint-sm: 359.99px;
+	--breakpoint-md: 439.99px;
+	--breakpoint-tablet: 639.99px;
+	--breakpoint-lg: 760.99px;
+	--breakpoint-xl: 1024.99px;
+	--breakpoint-2xl: 1279.99px;
+	--breakpoint-3xl: 1599.99px;
 	/*  */
 	--color-background: var(--background);
 	--color-foreground: var(--foreground);

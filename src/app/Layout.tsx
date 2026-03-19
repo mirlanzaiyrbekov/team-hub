@@ -11,7 +11,7 @@ export const Layout: React.FC = () => {
 			<SidebarProvider>
 				<SideBar />
 				<SearchBar />
-				<main className="p-12">
+				<main className="w-full px-2 pt-20 md:px-4">
 					<Outlet />
 				</main>
 			</SidebarProvider>
