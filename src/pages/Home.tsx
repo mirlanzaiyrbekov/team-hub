@@ -1,5 +1,10 @@
+import { UserCard } from "@/entities"
 import React from "react"
 
 export const Home: React.FC = () => {
-	return <div>Home</div>
+	return (
+		<div className="p-10">
+			<UserCard />
+		</div>
+	)
 }
