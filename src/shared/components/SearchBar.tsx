@@ -29,8 +29,10 @@ export const SearchBar: React.FC = () => {
 					<MenuBar />
 				</div>
 				<Field orientation="horizontal" className="xl:w-1/2">
-					<Input type="search" placeholder="Search..." />
-					<Button variant={"outline"}>Search</Button>
+					<Input type="search" placeholder="Поиск в системе..." />
+					<Button variant={"outline"} className="text-xs">
+						Поиск
+					</Button>
 				</Field>
 			</div>
 		</header>
